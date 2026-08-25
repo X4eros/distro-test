@@ -29,12 +29,10 @@ modules:
         - starship
         - dms
         - helium-bin
-        - steam
         - faugus-launcher
         - mangohud
         - mangohud.i686
         - gamemode.i686
-        - libfdk-aac.i686
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -52,6 +50,7 @@ modules:
           - org.gnome.Loupe
           - com.github.wwmm.easyeffects
           - com.vysp3r.ProtonPlus
+          - com.valvesoftware.Steam
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
