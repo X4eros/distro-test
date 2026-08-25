@@ -1,0 +1,22 @@
+name: Build ISO
+
+on:
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  build-iso:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+
+    steps:
+      - name: Generate ISO
+        uses: blue-build/iso-action@v1
+        with:
+          image_name: distro-test
+          installer_version: 44 # Match this to your base Fedora version
+          iso_name: distro-test.iso
+          image_repo: ghcr.io/x4eros
+          image_tag: latest
