@@ -21,6 +21,7 @@ modules:
     repos:
       copr:
         - atim/starship
+        - avengemedia/dms-git
         - imput/helium
         - faugus/faugus-launcher
     install:
