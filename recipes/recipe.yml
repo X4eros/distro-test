@@ -43,23 +43,23 @@ modules:
         # Thunar
         - thunar
         - xarchiver
-        - thunar-archive-plugin   # Integrates xarchiver into Thunar's context menu
-        - thunar-volman           # Automatic device management and auto-mounting
-        - thunar-media-tags-plugin# View/edit ID3 and media tags directly
+        - thunar-archive-plugin    # Integrates xarchiver into Thunar's context menu
+        - thunar-volman            # Automatic device management and auto-mounting
+        - thunar-media-tags-plugin # View/edit ID3 and media tags directly
 
         # Thumbnail Generation
-        - tumbler                 # D-Bus thumbnail generation service
-        - ffmpegthumbnailer       # Video thumbnails
-        - poppler-glib            # PDF thumbnails
-        - freetype                # Font previews
-        - libgsf                  # ODF/Office document previews
+        - tumbler                  # D-Bus thumbnail generation service
+        - ffmpegthumbnailer        # Video thumbnails
+        - poppler-glib             # PDF thumbnails
+        - freetype                 # Font previews
+        - libgsf                   # ODF/Office document previews
 
-        # Filesystem & Mounting Backend
-        - gvfs                    # Core backend for trash, network mounts, and storage
-        - gvfs-mtp                # Android/MTP device support
-        - gvfs-gphoto2            # Digital camera support
-        - gvfs-smb                # Windows/Samba network share support
-        - gvfs-fuse               # Exposes GVFS mounts to non-GVFS apps via FUSE
+        # Filesystem & Mounting Ba ckend
+        - gvfs                     # Core backend for trash, network mounts, and storage
+        - gvfs-mtp                 # Android/MTP device support
+        - gvfs-gphoto2             # Digital camera support
+        - gvfs-smb                 # Windows/Samba network share support
+        - gvfs-fuse                # Exposes GVFS mounts to non-GVFS apps via FUSE
 
         # Browser
         - helium-bin
