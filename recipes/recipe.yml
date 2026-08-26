@@ -44,7 +44,7 @@ modules:
         - greetd
         - dms
         - adw-gtk3-theme
-        - polkit-gnome
+        - mate-polkit
         - xdg-desktop-portal
         - xdg-desktop-portal-gnome
 
