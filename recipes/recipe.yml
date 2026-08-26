@@ -23,11 +23,14 @@ modules:
         - atim/starship
         - imput/helium
         - faugus/faugus-launcher
+        - sdegler/hyprland
     install:
       packages:
         - neovim
+        - zed
         - starship
         - dms
+        - hyprland
         - stow
         - adw-gtk3-theme
         - helium-bin
