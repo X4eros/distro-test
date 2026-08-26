@@ -60,6 +60,7 @@ modules:
         - mangohud.i686
         - gamemode.i686
         - steam
+        - faugus-launcher
     remove:
       packages:
         - firefox
@@ -83,7 +84,6 @@ modules:
           - com.github.wwmm.easyeffects
           - dev.zed.Zed
           - com.vysp3r.ProtonPlus
-          - io.github.Faugus.faugus-launcher
           - io.github.radiolamp.mangojuice
       - scope: user # Also add Flathub user repo, but no user packages
 
