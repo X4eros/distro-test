@@ -29,6 +29,7 @@ modules:
         - neovim
         - zed
         - starship
+        - fish
         - dms
         - stow
         - adw-gtk3-theme
