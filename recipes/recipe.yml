@@ -30,6 +30,7 @@ modules:
         - fish
         - dms
         - stow
+        - aquamarine
         - adw-gtk3-theme
         - helium-bin
         - mangohud
