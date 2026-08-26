@@ -66,9 +66,8 @@ modules:
 
         # Window Manager & Shell
         - hyprland
-        - greetd
         - dms
-        - dms-greeter
+        - sddm
         - adw-gtk3-theme
         - mate-polkit
         - xdg-desktop-portal
@@ -96,7 +95,7 @@ modules:
   - type: systemd
     system:
       enabled:
-        - greetd.service
+        - sddm.service
     user:
       enabled:
         - dms.service
