@@ -37,6 +37,9 @@ modules:
         - fish
         - kitty
         - stow
+        - cava
+
+        # Browser
         - helium-bin
 
         # Window Manager & Shell
