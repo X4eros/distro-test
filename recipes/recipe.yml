@@ -46,6 +46,10 @@ modules:
         - waybar
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+    replace:
+      - from-repo: copr:https://copr.fedorainfracloud.org:craftidore:wayblueorg-hyprland
+        packages:
+          - aquamarine
 
   - type: default-flatpaks
     configurations:
