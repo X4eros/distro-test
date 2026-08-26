@@ -7,7 +7,7 @@ description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/wayblueorg/hyprland-nvidia-open
-image-version: 44 # You can pin to a specific version of Fedora as well
+image-version: latest # You can pin to a specific version of Fedora as well
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -23,11 +23,9 @@ modules:
         - atim/starship
         - imput/helium
         - faugus/faugus-launcher
-        - sdegler/hyprland
     install:
       packages:
         - neovim
-        - zed
         - starship
         - fish
         - dms
@@ -45,11 +43,6 @@ modules:
         - waybar
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-    replace:
-      - from-repo: sdegler-hyprland
-        packages:
-          - hyprland
-          - xdg-desktop-portal-hyprland
 
   - type: default-flatpaks
     configurations:
@@ -59,8 +52,10 @@ modules:
         install: # system flatpaks we want all users to have and not remove
           - org.gnome.Loupe
           - com.github.wwmm.easyeffects
+          - dev.zed.Zed
           - com.vysp3r.ProtonPlus
           - com.valvesoftware.Steam
+          - io.github.radiolamp.mangojuice
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
