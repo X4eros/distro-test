@@ -30,7 +30,6 @@ modules:
         - zed
         - starship
         - dms
-        - hyprland
         - stow
         - adw-gtk3-theme
         - helium-bin
@@ -45,6 +44,11 @@ modules:
         - waybar
         - firefox
         - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+    replace:
+      - from-repo: sdegler-hyprland
+        packages:
+          - hyprland
+          - xdg-desktop-portal-hyprland
 
   - type: default-flatpaks
     configurations:
