@@ -28,6 +28,8 @@ modules:
         - neovim
         - starship
         - dms
+        - stow
+        - adw-gtk3-theme
         - helium-bin
         - faugus-launcher
         - mangohud
