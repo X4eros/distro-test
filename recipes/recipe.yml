@@ -38,6 +38,7 @@ modules:
         - kitty
         - stow
         - cava
+        - thunar
 
         # Browser
         - helium-bin
@@ -49,6 +50,7 @@ modules:
         - adw-gtk3-theme
         - mate-polkit
         - xdg-desktop-portal
+        - xdg-desktop-portal-gtk
         - xdg-desktop-portal-gnome
 
         # Audio Stack
