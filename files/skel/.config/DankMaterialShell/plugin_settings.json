@@ -1,0 +1,102 @@
+{
+  "grimblast": {
+    "enabled": true
+  },
+  "calculator": {
+    "enabled": true,
+    "trigger": "",
+    "noTrigger": true
+  },
+  "clipboardPlus": {
+    "enabled": true,
+    "listenClipboardWhileOpen": true,
+    "tabOrder": "clipboard,search,category,pinned,todo,emoji",
+    "tabOrderEnabled": "clipboard,search,category,pinned,todo",
+    "backgroundOpacity": 25,
+    "noteCardScale": 140
+  },
+  "emojiLauncher": {
+    "enabled": true,
+    "recentEmojis": "🤓,"
+  },
+  "simpleAudioControl": {
+    "enabled": true
+  },
+  "webSearch": {
+    "enabled": true,
+    "searchEngines": [],
+    "disabledEngines": [
+      "brave",
+      "bing",
+      "duckduckgo",
+      "kagi",
+      "stackoverflow",
+      "amazon",
+      "ebay",
+      "wikipedia",
+      "twitter",
+      "linkedin",
+      "imdb",
+      "nixpkgs",
+      "nixopts",
+      "npmjs",
+      "pypi",
+      "mdn"
+    ]
+  },
+  "screenRecorder": {
+    "enabled": true
+  },
+  "commandRunner": {
+    "enabled": false,
+    "history": [
+      "nemo",
+      "xeyes",
+      "sudo limine-snapper-sync",
+      "opencode",
+      "dms ipc call clipboardPlus togglePanel",
+      "bg",
+      "sudo pacman -S krita",
+      "sudo pacman -S krite",
+      "paru"
+    ]
+  },
+  "wallpaperDiscovery": {
+    "enabled": true
+  },
+  "dankNotepadModule": {
+    "enabled": true
+  },
+  "discordVoice": {
+    "enabled": true
+  },
+  "dankKDEConnect": {
+    "enabled": true,
+    "selectedDeviceId": "6c731e45a8c647e0b41210674b70d4ca"
+  },
+  "audioInhibit": {
+    "enabled": true
+  },
+  "quickCapture": {
+    "enabled": true,
+    "color_palette_preset": "custom",
+    "toolbar_color_primary": "#E91E63",
+    "radialHoverTrigger": true,
+    "show_shortcut_hints": true,
+    "saveFilenamePattern": "Screenshot_%Y-%m-%d_%H-%M-%S"
+  },
+  "dankDesktopWeather": {
+    "enabled": true
+  },
+  "mediaPlayer": {
+    "enabled": true
+  },
+  "systemMonitorPlus": {
+    "enabled": true,
+    "cpuTempEnabled": false,
+    "ramUsageEnabled": true,
+    "gpuTempEnabled": false,
+    "diskPartitionUsageEnabled": false,
+    "networkSpeedEnabled": true
+  }
+}
