@@ -39,6 +39,7 @@ modules:
         - kitty
         - stow
         - cava
+        - fastfetch
 
         # Thunar
         - thunar
@@ -111,6 +112,8 @@ modules:
           - dev.zed.Zed
           - com.vysp3r.ProtonPlus
           - io.github.radiolamp.mangojuice
+          - io.github.kolunmi.Bazaar
+          - com.github.tchx84.Flatseal
       - scope: user # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
